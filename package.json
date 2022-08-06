@@ -1,0 +1,33 @@
+{
+  "name": "demo-library",
+  "version": "1.0.0",
+  "description": "my demo library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "commit": "cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hellokugou520/demo-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hellokugou520/demo-library/issues"
+  },
+  "homepage": "https://github.com/Hellokugou520/demo-library#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "cz-customizable": "^6.9.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
